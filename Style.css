@@ -31,7 +31,7 @@ html {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    padding-top: 100px;
+    padding-top: 60px;
   }
   
   #accountName {
