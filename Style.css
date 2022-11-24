@@ -1,0 +1,179 @@
+html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  
+  body {
+    padding: 0px 20px;
+    text-align: center;
+    /* background-color: #FFFFFF; */
+    background-image: url("leaves.jpg");
+    height: fit-content;
+    background-repeat: no-repeat;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding-top: 100px;
+  }
+  
+  #accountName {
+    font-size: 1em;
+  }
+  
+  #tagline {
+    font-size: 1.4em;
+    text-transform: capitalize;
+    padding: 10px;
+  }
+  
+  .profileImage {
+    border-radius: 10%;
+    border: 3.5px solid white;
+    width: 180px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  #socialRow {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    font-size: 3em;
+  }
+
+  #whereNext {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 10px 0px 0px 0px;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .center {
+    border: 0px;
+    padding: 20px 0;
+  }
+
+  .PageBottom {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .whiteButton {
+    background-color: grey;
+    border: none;
+    border-radius: 6px;
+    padding: 14px;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .whiteButton:hover {
+    transform: translateX(-5%);
+    transition: 1.2s;
+  }
+  
+
+  /* .newsletter {
+    padding: 16px 0px 8px 0px;
+  }
+  
+  .card {
+    background: white;
+    color: #222222;
+    margin-top: 8px;
+    text-align: left;
+    padding: 12px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card p {
+    line-height: 1.3em;
+  }
+  
+  .card .formFields {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 0px;
+  }
+  
+  .card label {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+  }
+  
+  .card label span {
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  
+  .card input {
+    border: 0.5px solid #333;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 1em;
+  }
+  
+  .orangeButton {
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    color: white;
+    width: 100%;
+  }
+  
+  .orangeButton:disabled {
+    background-color: #999999;
+  }
+  
+  .signupResult {
+    padding: 8px 0px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .supportMe {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 16px;
+
+  } */
